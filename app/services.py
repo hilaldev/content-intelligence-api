@@ -5,7 +5,7 @@ from app.models import EcomRequest, AdRequest, ResearchRequest
 from app.utils import enforce_char_limit
 
 # Configuration
-OPENAI_MODEL = "gpt-3.5-turbo" # Or gpt-4-turbo for better quality
+OPENAI_MODEL = "gpt-5" # Or gpt-4-turbo for better quality
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 async def generate_ecom_content(data: EcomRequest):
